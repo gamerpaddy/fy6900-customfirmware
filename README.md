@@ -4,6 +4,13 @@
 
 A custom firmware replacement for the FY6900 dual-channel arbitrary waveform signal generator, built with Arduino framework and PlatformIO for STM32F103CB microcontroller.
 
+
+Blame the AI for writing this readme if anything doesnt work. i hate working with git how it works and this was the only way of getting it to work
+
+
+copy the User_Setup.h into TFT_eSPI library folder to load the TFT settings.  or find a way to load it without messing with the library itself.
+
+
 ## 📋 Table of Contents
 
 - [Overview](#overview)
@@ -35,9 +42,8 @@ The firmware is designed to run on the STM32F103CB microcontroller that controls
 
 ### Target Device
 - **Model**: FY6900 Dual Channel Arbitrary Waveform Signal Generator
-- **MCU**: STM32F103CB (72MHz ARM Cortex-M3)
-- **Flash**: 128KB
-- **RAM**: 20KB
+- **MCU**: STM32F103 (72MHz ARM Cortex-M3)
+- **Flash**: 64K or 128K
 - **FPGA**: Controls actual signal generation
 
 ### Key Components
@@ -273,7 +279,7 @@ We welcome contributions! This project needs:
 
 ## 📄 License
 
-This project is open source. Please check the LICENSE file for details.
+This project is open source. Do whatever you want i dont care about licenses.
 
 ## 🙏 Acknowledgments
 
@@ -290,4 +296,4 @@ This project is open source. Please check the LICENSE file for details.
 
 ---
 
-**⚠️ Disclaimer**: This firmware is experimental and may damage your device. Use at your own risk. Always have a backup of your original firmware before flashing.
+**⚠️ Disclaimer**: This firmware is experimental and may damage your device if it isnt allready damaged. Use at your own risk. Always have a backup of your original firmware before flashing.
