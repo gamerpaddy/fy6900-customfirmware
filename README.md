@@ -42,7 +42,7 @@ The firmware is designed to run on the STM32F103CB microcontroller that controls
 ### Target Device
 - **Model**: FY6900 Dual Channel Arbitrary Waveform Signal Generator
 - **MCU**: STM32F103 (72MHz ARM Cortex-M3)
-- **Flash**: 64K or 128K
+- **Flash**: 128K
 - **FPGA**: Controls actual signal generation
 
 ### Key Components
@@ -136,7 +136,7 @@ pio device monitor --port COM14 --baud 9600
 ### Upload Configuration
 - **Protocol**: ST-Link (SWD)
 - **Target**: STM32F103
-- **Flash Size**: 64KB (or 128KB.. depending on model)
+- **Flash Size**: 128KB
 - **RAM Size**: 20KB
 
 ## 📁 Project Structure
