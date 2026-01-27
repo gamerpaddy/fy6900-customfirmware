@@ -8,7 +8,6 @@ A custom firmware replacement for the FY6900 dual-channel arbitrary waveform sig
 Blame the AI for writing this readme if anything doesnt work. i hate working with git how it works and this was the only way of getting it to work
 
 
-copy the User_Setup.h into TFT_eSPI library folder to load the TFT settings.  or find a way to load it without messing with the library itself.
 
 
 ## 📋 Table of Contents
